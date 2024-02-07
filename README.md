@@ -8,6 +8,7 @@ This projects let's user to add their ID, images, password, friendId and a text.
 
 
 # Installation
+
 ## Frontend
 1. Change to frontend folder using "cd frontend"
 2. Type "npm init" to intilize npm
@@ -18,10 +19,11 @@ This projects let's user to add their ID, images, password, friendId and a text.
 1. Change to express-backend folder using "cd express-backend"
 2. Type "npm init" to intilize npm
 3. Type "npm install " to install dependendies
-4. Type "nodemon app.js" to start express server
+4. Type "nodemon app.js" or "node app.js" to start express server
 
 ## Python backend
-1. Type "uvicorn main:app --reload" to start python server
+1. Change to python-backend folder using "cd python-backend"
+2. Type "uvicorn main:app --reload" to start python server
 
 #### During starting these server please ensure no other server is running on port 3000, 5174, 8000
 
